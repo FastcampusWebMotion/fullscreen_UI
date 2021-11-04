@@ -113,5 +113,20 @@ footer {
 	z-index: 2;
 }
 
+/* mobile phone*/
+@media screen and (max-width: 1023px){
+	header #gnb {
+		display: none;
+	}
+	header .sns {
+		display: none;
+	}
+	header .btnMenu {
+		display: block;
+	}
 
+	figure .txt p {
+		font-size: 10vw;
+	}
+}
 
